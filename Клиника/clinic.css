@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.top-nav {
+    background-color: #b4b4b4;
+    display: inline-block;
+    width: 100%;
+
+}
+.top-nav ul {
+    
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.top-nav ul li {
+    padding: 10px;
+   
+}
+.top-nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+    color: #2b2b2b;
+    border: solid #2b2b2b;
+    border-width: 0px 1px 0px 0px  ;
+}
+.top-nav ul li:last-child a:first-child{
+    border-width: 0px;
+
+}
+.top-nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #2b2b2b ;
+}
+#main-nav{
+
+    display: flex;
+    width: 100%;
+
+}
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    right: 0px;
+     margin-left: 20%;
+     margin-right: 12%;
+
+}
+.search-img {
+    width: 50px;
+    height: 50px;
+
+}
+#main-nav ul li{
+    padding:15px;
+
+}
+#main-nav ul li a{
+    text-decoration: none;
+    color: #705b5b;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+
+
+}
+
+#main-nav ul li a:hover {
+    border: solid #2b2b2b;
+    border-width: 0px 0px 3px 0px;
+}
+.content-slider {
+    background-image: url(48271-pediatrician_young_girl_mother_stethescope_38964335_ml.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+   
+
+
+}
+#content-linear{
+    position: absolute;
+    border-top: 500px solid #415364;
+    border-right: 940px solid transparent;
+    opacity: 0.9;
+}
+.rectangle {
+    width: 200px;
+    height: 85px;
+    position: absolute;
+    background-color: #80225f;
+    transform: rotate(-27.5deg) skew(-50deg);
+    margin-top: 216px;  
+    margin-left: 440px;
+    opacity: 0.9;
+    border-radius: 5px;
+
+}
+.welcome {
+    color: #f2f2f2;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+    z-index: 998;
+
+}
+.content-text {
+    position: absolute;
+    font-size: 48px;
+    width: 30%;
+    color: #f2f2f2;
+    margin: 50px;
+    font-weight: bold;
+}
+.content-section {
+    display: flex;
+    position: absolute;
+    top:380px;
+    width: 100%;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-heal, 
+.content-services, 
+.content-conditions, 
+.content-hospital {
+    background-color: #80225f;
+    margin-right: 10px;
+    margin-left: 10px;
+    width:250px;
+    height: 200px; 
+}
+.content-heal img,
+.content-services img,
+.content-conditions img,
+.content-hospital img {
+    padding: 35px;
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+    border-radius: 15px;
+
+}
+.content-heal p,
+.content-services p,
+.content-conditions p,
+.content-hospital p {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: #f2f2f2;
+    font-size: 17px;
+} 
+.content-heal:hover, 
+.content-services:hover, 
+.content-conditions:hover, 
+.content-hospital:hover{
+    text-decoration: underline;
+    text-decoration-color:#f2f2f2;
+    text-decoration-thickness: 2px;
+    background-color: #751f57;
+    display: inline-block;
+
+}
+
+.clear {
+    position: absolute;
+    top: 740px;
+    width: 90%;
+    text-align: center;
+    background: seashell;
+    left: 5%;
+}
+#flex {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.foto img{
+  width: 50%;
+}
+.banner2 img {
+    width: 40%;
+
+}
+
+@media (max-width:560px ) {
+    .top-nav {
+        width: 100%;
+    }
+    .welcome {
+        font-size: 18px;
+    }
+    .content-text {
+        font-size: 28px;
+    }}
+
+
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 18px;
+    }
+    .content-text {
+        font-size: 28px;
+    }
+    .content-section {
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .clear {
+        position: relative;
+    }
+}
+@media (max-width:992px) {
+    .rectangle {
+        display: block;
+        display: none;
+    }
+    .content-linear {
+        display: block;
+        display: none;
+    }
+    .content-text {
+        width: 80%;
+    }
+}
+@media (max-width:1200px) {
+    .welcome {
+        font-size: 24px;
+    }
+    .content-text {
+        font-size: 32px;
+    }
+    .content-heal img,
+    .content-services img,
+    .content-conditions img,
+    .content-hospital img {
+        display: block;
+        display: none;
+    }
+
+    .content-section {
+        top: 480px;
+    }
+
+    .content-heal ,
+    .content-services ,
+    .content-conditions ,
+    .content-hospital  {
+        width: 200px;
+        height: 80px;
+    }
+}

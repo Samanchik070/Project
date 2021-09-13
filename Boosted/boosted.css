@@ -1,0 +1,309 @@
+* {
+          margin: 0px;
+          padding: 0px;
+
+}
+
+#header {
+       
+          background-color: black;
+          color: #fff;
+          width: 100%;
+          padding: 7px;
+          text-align: center;
+          font-family: monospace;
+          font-size: 12px;
+          letter-spacing: 3px;
+}
+.logo {
+          padding: 10px;
+          display: flex;
+          margin-left: 2%;
+          
+}
+y
+
+}
+.nav {   
+    
+          margin-left: 21%;
+          padding: 10px;
+          display: flex;
+          
+
+}
+.nav ul {
+          font-family: Arial, Helvetica, sans-serif;
+          list-style: none;
+          margin-right: 5px;
+
+
+}
+.nav ul li a {
+          color: black;
+          font-size: 15px;
+          width: 100%;
+          margin-right:5px;
+          text-decoration: none;
+          
+}
+.nav ul li a:hover {
+          color: #ff4a32;
+}
+.nav img {
+          width: 15px;
+          height: 15px;
+}
+.head{
+      
+
+          text-align: center;
+          padding: 5px;
+      
+}
+.bage-img {
+          background-image: url("img/buy-in-stock-boosted-boards-and-rev-electric-scooter-2_2000x.jpg");
+          background-size: cover;  
+          width: 1900px;
+          height: 1100px;
+
+            
+
+}
+.orta {
+       padding: 60px;
+}
+
+.orta h1 {      
+          font-size: 50px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+}
+.orta p {
+          padding: 10px;
+          font-size: 15px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boost {
+          padding: 10px;
+          margin-left: 640px;
+          display: flex;
+          text-align: center;
+          
+}
+.boost:hover {
+          color: darkgrey;
+}
+.boost ul {
+          padding: 5px;
+          width: 19%;
+          margin-left: 20px;
+          
+          list-style: none;
+}
+.boost ul li a {
+          font-size: 15px;
+          text-decoration: none;
+          color: #fff;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.left {
+          margin-left: 10px;
+          background-color:#ff4a32;
+          border-color: transparent;
+          border-radius: 40px;
+          
+}
+.left:hover {
+          transform: scale(0.9);
+          background-color: darkgrey;
+}
+.right {
+          background-color:#ff4a32;
+          border-color: transparent;
+          border-radius: 40px;
+
+}
+.right:hover {
+          transform: scale(0.9);
+          background-color: darkgrey;
+
+}
+.pas {
+          display: flex;
+          background-color: black;
+          width: 100%;
+          padding: 20px;
+          
+}
+.pas img {
+          margin-left: 8%;
+          width: 250px;
+}
+#pasro {
+          text-align: center;
+          width: 100%;
+}
+#pasro h1 {
+          padding: 25px;
+          font-family: Georgia,;
+          font-size: 35px;
+}
+#pasro p {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+.rasmla {
+          display: flex;
+          padding: 40px;
+          margin-left: 10%;
+          margin-right: 10%;
+
+}
+.rasm1 {
+          opacity: 0.7;
+          padding: 10px;
+          margin-right: 20px;
+          width: 50%;
+          
+}
+.rasm1:hover{
+          transform:scale(0.9);
+}
+.rasm2 {
+          opacity: 0.7;
+          padding: 10px;
+          margin-right: 20px;
+          width: 50%;
+          transition: .10s;
+}
+.rasm2:hover {
+          transform: scale(0.9);
+}
+#ele h1, p {
+          font-family: fantasy;
+          padding: 3px;
+          margin-top: 10px;
+
+}
+.foto {
+          background-image: url("img/4.jpg");
+          display: inline-block;
+          background-size: cover;  
+          width: 1900px;
+          height: 1100px;
+
+
+}
+#ele h1 {
+          font-size: 45px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ele p {
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text {
+          margin-top: 30px;
+
+}
+.sslka {
+          margin-top: 20px;
+          text-align: center;
+
+          padding: 3px;
+          background-color: #ff4a32;
+          border-radius: 25px;
+          font-family: Arial, Helvetica, sans-serif;
+
+
+          width:150px;
+          margin-left: 45%;
+
+}
+
+.sslka ul li {
+          list-style: none;
+
+}
+.sslka ul li a {
+          text-decoration: none;
+          color: #fff;
+
+          
+}
+#tegi {
+          display: flex;
+
+}
+#tegi ul li:hover {
+          background-color: darkgrey;
+}
+.foto-chap {
+          display: flex;
+          width: 30%;
+          padding: 35px;
+          margin-left: 13%;
+}
+.on{
+          margin-left: 30px;
+}
+.text1{
+          text-align: center;
+          padding: 10px;
+          width: 20%;
+          margin-top: 7%;
+          margin-left: 23%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 15px;
+           
+}
+.text1 h1 {
+          font-size: 40px;
+}
+.text1 p {
+          font-family: sans-serif;
+          font-size: 15px;
+}
+.text1 ul li {
+          text-align: center;
+          background-color: #ff4a32;
+          width: 27%;
+          margin-left: 35% ;
+          padding: 5px;
+          border-radius: 25px;
+          margin-top:20px;
+          list-style: none;
+}
+.text1 ul li a {
+          color: #fff;
+          text-decoration: none;
+}
+#rasmlar-3 {
+          background-image: url(img/);
+          
+
+}
+.foto11 {
+          width: 168%;
+}
+#youtube {
+          padding: 35px;
+          margin-left: 20%;
+          display: flex;
+}
+.youtube1 {
+          margin-right: 2%;
+          display: flex;
+
+
+}
+#footer {
+          margin-top: 20%;
+          background: black;
+
+}
+          

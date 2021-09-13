@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#navbar {
+    /* padding: 10px; */
+    background: #9d3bd6;
+    height: inherit;
+    text-align: center;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.nav a {
+    color: #fff;
+    border-width: 0px 3px 0px 0px;
+    border-style: solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    display: inline-block;
+    width: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+.nav a:last-child {
+    border-width: 0px;
+}
+
+.nav a:hover{
+    color: orange;
+    border-color: ivory;
+}
+#img {
+    background-position-x: center ;
+    height: 450px;
+    background-image: url("onkolog.jpg");
+    padding: inherit;
+    
+}
+#img h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 180px;
+
+}
+#img p {
+    text-align: center;
+    padding-top: 5px;
+    margin: 50px;
+    font-size: x-large;
+}
+#container{
+    color: #fff;
+    display: flex;
+    font-family: sans-serif;
+}
+.left {
+    display: inline-block;
+    text-align: center;
+    background: #9d3bd6;
+    padding: 30px;
+    width: 25%;
+}
+.left p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.left img {
+    width: 80px;
+    height: 80px;
+}
+#right {
+    font-family: sans-serif;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    background: rebeccapurple;
+    width: 26%;
+     text-align: center;
+     
+     
+}
+#right img {
+    width: 80px;
+    height: 80px;
+
+}
+#right h5 {
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+#today {
+    font-family: sans-serif;
+    padding: 20px;
+    font-weight: inherit;
+    width: 25%;
+    background: #9d3bd6;
+    text-align: center;
+}
+#today img {
+    width: 80px;
+    height: 80px;
+}
+#today p {
+    font-size: 19px;
+    height: 70px;
+}
+#local {
+    padding: 20px;
+    width: 25%;
+    background: rebeccapurple;
+    text-align: center;
+}
+#local p {
+    font-size: 17px;
+
+}
+#local img {
+    width: 40px;
+    height: 60px;
+
+}
+#banner {
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+#banner h2, h1 {
+    color: mediumorchid ;
+}
+#banner p{
+    text-align: center;
+     margin: 25px;
+}
+input {
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 5px;
+}
+.input {
+    list-style: none;
+}
+
+.area{
+    padding: 15px;
+    list-style: none;
+
+}
+#end {
+    /* background-color: #b4b4b4; */
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+.content-text1 {
+    width: 33%;
+}
+img {
+    width: 33%;
+    height: 400px;
+}
+#text {
+    margin-right: 50px;
+    text-align: center;
+    width: 33%;
+}
+.week {
+    float: left;
+    width: 100px;
+
+    text-align: center;
+}
+.time{
+    width: -100px;
+    text-align: right;
+}
+
+#Saman {
+    background-color: #111111;
+    width: 100%;
+    background-position: right bottom;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    padding: 30px;
+    color: #fff;
+}
+
+.content-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.chap {
+    color: blueviolet;
+    font-family: sans-serif;
+    width: 25%;
+    padding: 20px;
+}
+.chap p {
+    padding: 5px;
+}
+.chap a {
+    font-family:sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.chap a:hover {
+    color: blueviolet;
+}
+.orta {
+    font-family: sans-serif;
+    color:blueviolet;
+    width: 25%;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.orta p {
+    
+    text-align:left ;
+    padding: 7px;
+}
+.orta a{
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration:none;
+
+}
+.orta a:hover {
+    color: blueviolet;
+
+}
+.contact {
+    color: blueviolet;
+    text-align: left;
+    padding: 30px;
+}
+.contact p {
+    font-family: sans-serif;
+    padding: 10px;
+    width: 25%;
+    color: #fff;
+}
+#fother img {
+    float: end;
+    top: 100px;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+
